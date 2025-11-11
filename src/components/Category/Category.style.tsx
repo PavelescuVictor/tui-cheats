@@ -3,7 +3,6 @@ import { type NonStyledProps } from '@opentui/react'
 import type { Theme } from 'Store/themeContext';
 
 export const categoryWrapperStyle = (theme: Theme) => ({
-    borderColor: theme.mauve,
     alignItems: "flex-start",
     flexDirection: "column",
     paddingTop: 0,

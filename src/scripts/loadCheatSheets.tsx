@@ -10,7 +10,8 @@ export async function loadCheatSheets(dir = CHEATSHEETS_DIR): Promise<CheatSheet
     const out = [] as CheatSheets;
 
     const entries = await fs.readdir(dir, { withFileTypes: true });
-    for (const e of entries) {
+    const orderedEntries = entries.sort((entry1, entry2) => entry1.name.localeCompare(entry2.name, undefined, { numeric: true, sensitivity: 'base' }))
+    for (const e of orderedEntries) {
         const full = path.join(dir, e.name);
         if (e.isDirectory()) {
             continue;

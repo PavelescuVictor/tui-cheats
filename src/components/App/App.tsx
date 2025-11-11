@@ -46,7 +46,7 @@ const App = (props: AppProps) => {
         return <EmptyCheatSheet />;
     }
 
-    return <CheatSheet cheatSheet={cheatSheet.data} />;
+    return <CheatSheet cheatSheet={cheatSheet.data} focus={true}/>;
 };
 
 export default App;

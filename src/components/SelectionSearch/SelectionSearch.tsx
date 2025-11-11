@@ -7,19 +7,18 @@ interface SelectionSearchProps {
     handleFilter: (...args: any[]) => any;
 }
 
-const DEFAULT_DEBOUNCE_TIME = 1000 // time in ms
+const DEFAULT_DEBOUNCE_TIME = 500 // time in ms
 const debounced = (func: (...args: any[]) => {}) => {
     let timeoutId: NodeJS.Timeout | null = null;
 
     return (...args: any[]) => {
-        console.log(args);
         if (timeoutId !== null) {
-            clearTimeout();
+            clearTimeout(timeoutId);
             timeoutId = null;
         }
 
         timeoutId = setTimeout(() => {
-            func(args);
+            func(...args);
         }, DEFAULT_DEBOUNCE_TIME);
     }
 }
@@ -37,11 +36,11 @@ const SelectionSearch = (props: SelectionSearchProps) => {
         debouncedHandleFilter(value);
     }
 
-    return <box style={componentStyle(theme)}>
+    return <box style={componentStyle(theme, focus)}>
         <input
             style={inputStyle(theme)}
             value={inputValue}
-            placeholder="⌨ Type to search..."
+            placeholder="  ⌨ Type to search..."
             focused={focus}
             onInput={onInput}
         />

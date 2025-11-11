@@ -2,16 +2,17 @@ import { useMemo } from 'react';
 import { useKeyboard } from '@opentui/react';
 import { useCheatSheets, type CheatSheetData } from 'Store/cheatSheetsContext';
 import { useTheme } from 'Store/themeContext'
-import Category from 'components/Category';
-import { cheatSheetStyle, cheatSheetItemWrapperStyle } from './CheatSheet.style';
+import { Category } from 'components/Category';
 import type { KeyEvent } from '@opentui/core';
+import EmptyCheatSheet from 'components/EmptyCheatSheet';
 
 interface CheatSheetProps {
     cheatSheet: CheatSheetData
+    focus: boolean
 }
 
 const CheatSheet = (props: CheatSheetProps) => {
-    const { cheatSheet } = props;
+    const { cheatSheet, focus } = props;
     const { theme } = useTheme();
     const { setState } = useCheatSheets();
 
@@ -34,8 +35,26 @@ const CheatSheet = (props: CheatSheetProps) => {
         />
     ), [cheatSheet])
 
-    return <scrollbox focused style={cheatSheetStyle(theme)}>
-        <box style={cheatSheetItemWrapperStyle}>{items}</box>
+    if (!items.length) {
+        return <EmptyCheatSheet/>
+    }
+
+    return <scrollbox
+        focused={focus}
+        style={{
+            scrollbarOptions: {
+                showArrows: false,
+                trackOptions: {
+                    foregroundColor: theme.mauve,
+                    backgroundColor: "#00000000",
+                },
+                arrowOptions: {
+                    foregroundColor: theme.mauve
+                }
+            }
+        }}
+    >
+        {items}
     </scrollbox>
 }
 

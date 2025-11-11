@@ -2,23 +2,22 @@ import { type SelectRenderableOptions } from '@opentui/core'
 import { type NonStyledProps } from '@opentui/react'
 import type { Theme } from 'Store/themeContext';
 
-export const componentStyle = (theme: Theme) => ({
+export const componentStyle = (theme: Theme, focus: boolean) => ({
     height: 3,
     width: "100%",
     paddingLeft: 2,
     paddingRight: 2,
     paddingBottom: 1,
-    backgroundColor: theme.base,
-    borderColor: theme.mauve,
     border: true,
-    borderStyle: "heavy"
+    borderStyle: "heavy",
+    borderColor: focus ? theme.peach : theme.mauve,
 }) as Partial<Omit<SelectRenderableOptions, NonStyledProps>>
 
 export const inputStyle = (theme: Theme) => ({
-    textColor: theme.mauve,
-    cursorColor: theme.mauve,
+    textColor: theme.peach,
+    cursorColor: theme.peach,
+    selectedTextColor: theme.peach,
     placeholderColor: theme.surface2,
-    backgroundColor: theme.base,
     focusedTextColor: theme.mauve,
-    focusedBackgroundColor: theme.base
+    focusedBackgroundColor: "#00000000",
 }) as Partial<Omit<SelectRenderableOptions, NonStyledProps>>

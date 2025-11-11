@@ -1,6 +1,13 @@
 export { default as App } from './App';
+export { default as BorderBox } from './BorderBox';
 export { default as Command } from './Command';
 export { default as CheatSheet } from './CheatSheet';
-export { default as SelectionPage } from './SelectionPage';
 export { default as EmptyCheatSheet } from './EmptyCheatSheet';
+export { default as HorizontalSplitLayout } from './HorizontalSplitLayout';
+export { default as PageLayout } from './PageLayout';
+export { default as SearchPreview } from './SearchPreview';
+export { default as SearchResults } from './SearchResults';
+export { default as SelectionPage } from './SelectionPage';
 export { default as SelectionSearch } from './SelectionSearch';
+export { default as SectionTitle } from './SectionTitle';
+export { default as VerticalSplitLayout } from './VerticalSplitLayout';

@@ -6,6 +6,5 @@ export const emptyCheatSheetStyle = (theme: Theme) => ({
     alignItems: "center",
     justifyContent: "center",
     flexDirection: "column",
-    backgroundColor: theme.base,
     height: '100%'
 }) as Partial<Omit<SelectRenderableOptions, NonStyledProps>>
