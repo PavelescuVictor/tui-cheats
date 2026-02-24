@@ -1,7 +1,7 @@
 # tui-cheats
 
 <p align="center">
-  <img src=".src/assets/Preview%20CheatsTUI.gif" width="1080" />
+  <img src="src/assets/Preview%20CheatsTUI.gif" width="1080" />
 </p>
 <p align="center">
   <b> A fast, keyboard-driven terminal cheatsheet management tool built with Bun + OpenTUI. </b>
