@@ -1,6 +1,9 @@
 # tui-cheats
 
 <p align="center">
+  <img src=".src/assets/Preview CheatsTUI.gif" width="1080" />
+</p>
+<p align="center">
   <b> A fast, keyboard-driven terminal cheatsheet management tool built with Bun + OpenTUI. </b>
 </p>
 
@@ -30,12 +33,6 @@ Built with:
 -   ⌨ Fully keyboard-driven navigation
 
 ------------------------------------------------------------------------
-
-# 🖼 Preview
-
-<p align="center">
-  <img src="./assets/Preview CheatsTUI.gif" width="1080" />
-</p>
 
 ## Interface Layout
 
