@@ -4,10 +4,10 @@
   <b> A fast, keyboard-driven terminal cheatsheet browser built with Bun + React. </b>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/runtime-bun-black?style=for-the-badge&logo=bun" />`{=html}
-  <img src="https://img.shields.io/badge/language-typescript-blue?style=for-the-badge&logo=typescript" />`{=html}
-  <img src="https://img.shields.io/badge/ui-terminal-informational?style=for-the-badge" />`{=html}
-  <img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" />`{=html}
+  <img src="https://img.shields.io/badge/runtime-bun-black?style=for-the-badge&logo=bun" />
+  <img src="https://img.shields.io/badge/language-typescript-blue?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/ui-terminal-informational?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" />
 </p>
 
 ------------------------------------------------------------------------
@@ -39,13 +39,10 @@ Built with:
 
 # 🖼 Preview
 
-> Screenshot / GIF coming soon
-
-```{=html}
 <p align="center">
   <img src="./assets/Preview/ CheatsTUI.gif" width="1080" />
 </p>
-```
+
 ## Interface Layout
 
 `tui-cheats` uses a split-pane layout:
@@ -204,10 +201,4 @@ Configuration system is planned but not yet implemented.
 
 ------------------------------------------------------------------------
 
-```{=html}
-<p align="center">
-```
-Built for terminal power users ⚡
-```{=html}
-</p>
-```
+<p align="center"> Built for terminal power users ⚡ </p>
