@@ -1,23 +1,14 @@
 # tui-cheats
 
-```{=html}
 <p align="center">
-```
-`<b>`{=html}A fast, keyboard-driven terminal cheatsheet browser built
-with Bun + React.`</b>`{=html}
-```{=html}
+  <b> A fast, keyboard-driven terminal cheatsheet browser built with Bun + React. </b>
 </p>
-```
-```{=html}
 <p align="center">
-```
-`<img src="https://img.shields.io/badge/runtime-bun-black?style=for-the-badge&logo=bun" />`{=html}
-`<img src="https://img.shields.io/badge/language-typescript-blue?style=for-the-badge&logo=typescript" />`{=html}
-`<img src="https://img.shields.io/badge/ui-terminal-informational?style=for-the-badge" />`{=html}
-`<img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" />`{=html}
-```{=html}
+  <img src="https://img.shields.io/badge/runtime-bun-black?style=for-the-badge&logo=bun" />`{=html}
+  <img src="https://img.shields.io/badge/language-typescript-blue?style=for-the-badge&logo=typescript" />`{=html}
+  <img src="https://img.shields.io/badge/ui-terminal-informational?style=for-the-badge" />`{=html}
+  <img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" />`{=html}
 </p>
-```
 
 ------------------------------------------------------------------------
 
