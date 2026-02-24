@@ -34,7 +34,7 @@ Built with:
 # 🖼 Preview
 
 <p align="center">
-  <img src="./assets/Preview\ CheatsTUI.gif" width="1080" />
+  <img src="./assets/Preview CheatsTUI.gif" width="1080" />
 </p>
 
 ## Interface Layout
