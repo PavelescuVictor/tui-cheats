@@ -3,12 +3,6 @@
 <p align="center">
   <b> A fast, keyboard-driven terminal cheatsheet management tool built with Bun + OpenTUI. </b>
 </p>
-<p align="center">
-  <img src="https://img.shields.io/badge/runtime-bun-black?style=for-the-badge&logo=bun" />
-  <img src="https://img.shields.io/badge/language-typescript-blue?style=for-the-badge&logo=typescript" />
-  <img src="https://img.shields.io/badge/ui-terminal-informational?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" />
-</p>
 
 ------------------------------------------------------------------------
 
