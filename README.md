@@ -1,7 +1,7 @@
 # tui-cheats
 
 <p align="center">
-  <b> A fast, keyboard-driven terminal cheatsheet browser built with Bun + React. </b>
+  <b> A fast, keyboard-driven terminal cheatsheet management tool built with Bun + OpenTUI. </b>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/runtime-bun-black?style=for-the-badge&logo=bun" />
